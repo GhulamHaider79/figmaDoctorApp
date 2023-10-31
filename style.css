@@ -1,0 +1,185 @@
+body{
+    background-color: #ECECEC;
+}
+.second-div{
+    display: flex;
+}
+.heathyffuture{
+    width: 60%;
+}
+.healthcare{
+    color: #007E85;
+}
+.brighter{
+    color: #6EAB36;
+}
+.ply-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007E85;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+}
+.buton-appintment{
+    background-color: #007E85;
+    color: #fff;
+    width: 180px;
+}
+.appointment-btn{
+display: flex;
+gap: 20px;
+}
+
+.watch-video{
+    font-weight: 500;
+}
+
+.doctor-image{
+    width: 36%;
+    background-color: #007E85;
+    background-image: url(./images/image\ 17.svg);
+    position: relative;
+
+}
+.littel-image{
+    width: 120px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.images-div{
+    width: 80%;
+    height: 28px;
+    display: flex;
+    position: relative;
+    border: 01px solid rgb(241, 240, 240);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.imag-0{
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+}
+
+.imag-1{
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+}
+.imag-2{
+    position: absolute;
+    left: 30px;
+    z-index: 3;
+}
+.imag-3{
+    position: absolute;
+    left: 40px;
+    z-index: 4;
+}
+.imag-4{
+    position: absolute;
+    left: 50px;
+    z-index: 5;
+}
+.imag-5{
+    position: absolute;
+    left: 60px;
+    z-index: 6;
+}
+.imag-6{
+    position: absolute;
+    left: 70px;
+    z-index: 7;
+}
+.imag-7{
+    position: absolute;
+    left: 80px;
+    z-index: 8;
+}
+.our-profinal{
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.our-profinal>p{
+    font-size: 10px;
+    margin-top: 3px;
+    text-align: center;
+
+}
+.doctor-find-main-div{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 450px;
+}
+.find-a-doctor{
+ width: 85%;
+ display: flex;
+ flex-direction: column;
+ gap: 4rem;
+}
+.find-a-doctor>h1{
+    margin-left: 40px;
+}
+.find-a-doctor-form{
+    width: 100%;
+    height: 236px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}
+.find-a-doctor-form>input{
+    height: 3rem;
+    border-radius: 5px;
+    border: 0.8px solid #007E85;
+}
+input[type="text"]::placeholder {   
+    padding-left: 10px; 
+}
+.our-result{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+.customer>h1{
+    color: #007E85;
+}
+.reasons-contant-main-div{
+    margin-top: 8rem;
+}
+.lot-of-reason{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+.lot-of-reason>h1{
+    color: #007E85;
+}
+.my-btn{
+    border-radius: 30px;
+    background-color: #007E85;
+    padding: 10px 24px;
+
+}
+.my-btn-one{
+    border-radius: 30px;
+    margin-left: 1rem;
+    background-color: #fff;
+    color: #007E85;
+    padding: 10px 24px;
+}
