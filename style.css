@@ -183,3 +183,81 @@ input[type="text"]::placeholder {
     color: #007E85;
     padding: 10px 24px;
 }
+.service-we-provide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.service-we-provide>p{
+    width: 50%;
+    text-align: center;
+}
+.card-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.card-main-one{
+    padding: 0.8rem;
+}
+.card-main-one>img{
+    margin-top: 0.8rem;
+}
+.card-main-one>div>h5{
+    color: #007E85;
+}
+.card-main-one>div>a{
+    color: #007E85;
+}
+.bg-imag>img{
+    width: 160px;
+    align-self: center;
+}
+.bg-imag>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-mida-link>a{
+   align-items: center;
+   text-align: center;
+    width: 36px;
+    background-color: gray;
+    color: rgb(46, 46, 250);
+    font-size: 1.2rem;
+}
+.bg-imag-1{
+    display: flex;
+    flex-direction: column;
+}
+.bg-imag-1>img{
+    width: 80px;
+}
+.bg-imag-1>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+}
+.trust-1000-main{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem;
+    align-items: center;
+}
+.trust-1000-heading>h1{
+    color: #007E85;
+    font-size: 1.3rem;
+}
+.trust-1000-logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    margin-top: 2rem;
+}
